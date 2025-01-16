@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quadratic Math Questions</title>
+</head>
+<body>
+    <h1>Quadratic Math Questions</h1>
+    <form method="post">
+        {% for question, solution in questions %}
+            <div>
+                <label>{{ question }}</label>
+                <input type="text" name="user_answer_{{ loop.index0 }}">
+            </div>
+        {% endfor %}
+        <input type="submit" value="Submit Answers">
+    </form>
+</body>
+</html>

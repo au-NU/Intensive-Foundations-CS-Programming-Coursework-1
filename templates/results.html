@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Results</title>
+</head>
+<body>
+    <h1>Quiz Results</h1>
+    <p>Your final score: {{ final_score }} out of {{ total_questions }}</p>
+    <p>Final score percentage: {{ final_score_percentage }}%</p>
+    <h2>Mistakes:</h2>
+    <ul>
+        {% for mistake in mistakes.values() %}
+            <li>{{ mistake }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
