@@ -57,16 +57,16 @@ What is the value of x?
 ```
 
 ### How to run
-![Image of how to run command line version](How to run command line version.png)
+![Image of how to run command line version](How%20to%20run%20command%20line%20version.png)
 
 Type in to the command line to continue
 
 ## Flask Web Application version
 ### Example Gameplay in Flask web application
-![Image of flask gameplay](Flask gameplay.png)
+![Image of flask gameplay](Flask%20gameplay.png)
 
 ### How to run
-![Image of how to run command line version](How to run flask based version.png)
+![Image of how to run command line version](How%20to%20run%20flask%20based%20version.png)
 
 Once you have run the 'app.py' file, navigate to the displayed URL (usually http://127.0.0.1:5000/) to navigate to the server where the page is hosted, and continue on the webpage.
 
