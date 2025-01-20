@@ -87,12 +87,11 @@ def main():
         else:
             a, b, c, solutions = generate_quadratic_equation()
             user_ans = input(f"Q{q_num + 1}: {a}x^2 + {b}x + {c} = 0.\nWhat are the real solutions of x?\n"
-                                     f"Note: Enter your answers split by a space and rounded to 2 d.p. "
                                         f"and enter \"None\" when there are no real solutions.\n")
             user_ans_set = set() # Use of a set to prevent duplicate answers
-            for ans in user_ans.split(): # Takes single line of input and unpacks into multiple values
+            for ans in user_ans.split(","): # Takes single line of input and unpacks into multiple values
                 if ans.lower() != "none":
-                    user_ans_set.add(float(ans))
+                    user_ans_set.add(round(float(ans), 2))
                 else:
                     user_ans_set = {None}
             if user_ans_set == solutions:

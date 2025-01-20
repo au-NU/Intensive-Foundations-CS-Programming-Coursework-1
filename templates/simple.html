@@ -13,6 +13,7 @@
               <p>{{ question_str }}</p>
               <input type="number" name="user_answer_{{ loop.index0 }}" required>
             {% endfor %}
+              <br>
             <button type="submit">Submit</button>
           </form>
         {% else %}
