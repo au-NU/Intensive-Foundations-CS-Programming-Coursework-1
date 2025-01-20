@@ -8,13 +8,13 @@ This program aims to generate equations for the user to solve and can be used vi
 
 [Features](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#features)
 
-[What You'll Need](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#What-You'll-Need)
+[What You'll Need](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#what-youll-need)
 
-[How to get started](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#How-to-get-started)
+[How to get started](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#how-to-get-started)
 
-[Command line version](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#Command-line-version)
+[Command line version](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#command-line-version)
 
-[Flask Web Application version](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#Flask-Web-Application-version)
+[Flask Web Application version](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#flask-web-application-version)
 
 
 ## User Guide
