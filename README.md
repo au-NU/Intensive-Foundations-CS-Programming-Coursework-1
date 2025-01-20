@@ -4,17 +4,17 @@
 This program aims to generate equations for the user to solve and can be used via the command line or the web GUI by running the Flask application. 
 
 # Navigation
-[User Guide](##User-Guide)
+[User Guide](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#user-guide)
 
-[Features](##Features)
+[Features](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#features)
 
-[What You'll need](##What You'll Need)
+[What You'll Need](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#what-youll-need)
 
-[How to get started](##How to get started)
+[How to get started](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#how-to-get-started)
 
-[Command line version](##Command line version)
+[Command line version](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#command-line-version)
 
-[Flask Web Application version](##Flask Web Application version)
+[Flask Web Application version](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#flask-web-application-version)
 
 
 ## User Guide
@@ -57,16 +57,19 @@ What is the value of x?
 ```
 
 ### How to run
-![Image of how to run command line version](How to run command line version.png)
+![Image of how to run command line version](How%20to%20run%20command%20line%20version.png)
 
 Type in to the command line to continue
 
+### Demo
+![Demo of command line version](command_line_demo.gif)
+
 ## Flask Web Application version
 ### Example Gameplay in Flask web application
-![Image of flask gameplay](Flask gameplay.png)
+![Image of flask gameplay](Flask%20gameplay.png)
 
 ### How to run
-![Image of how to run command line version](How to run flask based version.png)
+![Image of how to run command line version](How%20to%20run%20flask%20based%20version.png)
 
 Once you have run the 'app.py' file, navigate to the displayed URL (usually http://127.0.0.1:5000/) to navigate to the server where the page is hosted, and continue on the webpage.
 
