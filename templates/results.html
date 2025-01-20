@@ -8,11 +8,15 @@
     <h1>Quiz Results</h1>
     <p>Your final score: {{ final_score }} out of {{ total_questions }}</p>
     <p>Final score percentage: {{ final_score_percentage }}%</p>
+    {% if mistakes %}
     <h2>Mistakes:</h2>
     <ul>
-        {% for mistake in mistakes.values() %}
-            <li>{{ mistake }}</li>
-        {% endfor %}
+            {% for mistake in mistakes.values() %}
+                <li>{{ mistake }}</li>
+            {% endfor %}
     </ul>
+    {% endif %}
+    <p> {% if final_score_percentage == 100 %} Congrats!!! You got full marks! {% endif %}</p>
 </body>
+<a href="/">Return to homepage</a>
 </html>

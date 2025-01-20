@@ -22,10 +22,22 @@ def generate_quadratic_equation() -> (int, int, int, set[int]):
     Generates a quadratic equation and calculates solutions using quadratic formula
     :return: a, b, c which are the coefficients in the formula and the solutions as a set()
     """
-    a, b, c = random.randint(-10,10), random.randint(-50,50), random.randint(-100, 100)
-    solutions = set()
-    solutions.add(round((b*-1 + math.sqrt((b**2 - 4*a*c)))/(2*a), 2) if b**2 - 4*a*c >= 0  else None)
-    solutions.add(round((b*-1 - math.sqrt((b**2 - 4*a*c)))/(2*a), 2) if b**2 - 4*a*c >= 0  else None)
+    a = random.randint(2, 10)
+    b = random.randint(2, 10)
+    c = random.randint(2, 10)
+    delta = (b ** 2) - (4 * a * c)
+    while delta < 0:
+        a = random.randint(2, 10)
+        b = random.randint(2, 10)
+        c = random.randint(2, 10)
+        delta = (b ** 2) - (4 * a * c)
+    if delta > 0:
+        sol1 = round((-b + delta ** 0.5) / (2 * a), 2)
+        sol2 = round((-b - delta ** 0.5) / (2 * a), 2)
+        solutions = {sol1, sol2}
+    elif delta == 0:
+        sol = round(-b / (2 * a), 2)
+        solutions = {sol}
     return a, b, c, solutions
 
 

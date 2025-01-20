@@ -7,13 +7,17 @@
 <body>
     <h1>Simple Math Questions</h1>
     <form method="post">
-        {% for question, solution in questions %}
-            <div>
-                <label>{{ question }}</label>
-                <input type="text" name="user_answer_{{ loop.index0 }}">
-            </div>
-        {% endfor %}
-        <input type="submit" value="Submit Answers">
+        {% if questions_list %}
+          <form method="post">
+            {% for question_str, solution in questions_list %}
+              <p>{{ question_str }}</p>
+              <input type="number" name="user_answer_{{ loop.index0 }}" required>
+            {% endfor %}
+            <button type="submit">Submit</button>
+          </form>
+        {% else %}
+          <p>No questions generated yet.</p>
+        {% endif %}
     </form>
 </body>
 </html>
