@@ -62,7 +62,7 @@ What is the value of x?
 Type in to the command line to continue
 
 ### Demo
-![Demo of command line version](command_line_demo.gif)
+![Demo of command line version](terminal_line_demo.gif)
 
 ## Flask Web Application version
 ### Example Gameplay in Flask web application
