@@ -6,7 +6,7 @@ This program aims to generate equations for the user to solve and can be used vi
 # Navigation
 [User Guide](##User-Guide)
 
-[##Features](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#features)
+[Features](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#features)
 
 [What You'll need](##What You'll Need)
 
