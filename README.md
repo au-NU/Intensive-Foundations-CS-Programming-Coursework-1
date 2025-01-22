@@ -4,7 +4,7 @@
 This program aims to generate equations for the user to solve and can be used via the command line or the web GUI by running the Flask application. 
 
 # Navigation
-[User Guide](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#user-guide)
+[User Guide](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1?tab=readme-ov-file#user-guide)
 
 [Features](https://github.com/au-NU/Intensive-Foundations-CS-Programming-Coursework-1/blob/master/README.md#features)
 
